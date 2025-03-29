@@ -1,6 +1,9 @@
 const { app, BrowserWindow, ipcMain} = require('electron/main')
 const path = require('node:path')
 
+// Automatically update electron app from github
+require('update-electron-app')()
+
 // This function creates a new browser window and loads the index.html file into it.
 const createWindow = () => {
   const win = new BrowserWindow({
