@@ -53,7 +53,4 @@ RoAG-kit/
 - **`package.json`**: Manages dependencies and scripts for the Electron app.
 - **`Makefile`**: Automates the build process for the C backend.
 
-This structure separates concerns, making the project easier to manage and scale.
-
-
 ```
